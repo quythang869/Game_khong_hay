@@ -2,5 +2,5 @@
 // Ví dụ: WS_URL: "wss://van-phong-game.onrender.com"
 // Chạy thử trên máy (localhost) thì để trống, game tự dùng ws://localhost:8080
 window.GAME_CONFIG = {
-  WS_URL: ""
+  WS_URL: "wss://game-khong-hay.onrender.com"
 };
