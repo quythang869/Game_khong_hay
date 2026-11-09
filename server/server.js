@@ -652,3 +652,4 @@ setInterval(() => {
 }, 25000);
 
 server.listen(PORT, () => console.log('Game server đang chạy ở cổng ' + PORT));
+module.exports = server;
