@@ -1,0 +1,15 @@
+{
+  "name": "van-phong-tron-viec",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Văn Phòng & Thế Giới Trốn Việc 2D - web game multiplayer",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/styles.css --minify",
+    "dev:css": "tailwindcss -i ./src/input.css -o ./public/styles.css --watch",
+    "dev:server": "node server/server.js",
+    "dev:static": "npx --yes serve public -l 8000"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}
