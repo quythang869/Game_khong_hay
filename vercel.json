@@ -1,5 +1,9 @@
 {
-  "buildCommand": "npm run build",
+  "framework": null,
+  "buildCommand": "npm run build && rm -rf server",
   "outputDirectory": "public",
-  "installCommand": "npm install"
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }

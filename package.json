@@ -3,15 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "description": "Văn Phòng & Thế Giới Trốn Việc 2D - web game multiplayer",
-  "main": "server/server.js",
   "scripts": {
     "build": "tailwindcss -i ./src/input.css -o ./public/styles.css --minify",
     "dev:css": "tailwindcss -i ./src/input.css -o ./public/styles.css --watch",
     "dev:server": "node server/server.js",
     "dev:static": "npx --yes serve public -l 8000"
-  },
-  "dependencies": {
-    "ws": "^8.18.0"
   },
   "devDependencies": {
     "tailwindcss": "3.4.17"
