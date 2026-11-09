@@ -5,6 +5,7 @@
   "description": "Server WebSocket realtime cho game Văn Phòng & Thế Giới Trốn Việc",
   "main": "server.js",
   "scripts": {
+    "build": "echo ok",
     "start": "node server.js"
   },
   "engines": {
